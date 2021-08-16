@@ -54,23 +54,23 @@ const LeaderBoards = styled.div`
   height: 100%;
 `;
 
-const First = styled.h1`
-  position: absolute;
-  margin-left: 2%;
-  margin-top: 1.5%;
-`;
+// const First = styled.h1`
+//   position: absolute;
+//   margin-left: 2%;
+//   margin-top: 1.5%;
+// `;
 
-const Second = styled.h2`
-  position: absolute;
-  top: 40%;
-  margin-left: 3%;
-`;
+// const Second = styled.h2`
+//   position: absolute;
+//   top: 40%;
+//   margin-left: 3%;
+// `;
 
-const Third = styled.h3`
-  position: absolute;
-  top: 51%;
-  margin-left: 3%;
-`;
+// const Third = styled.h3`
+//   position: absolute;
+//   top: 51%;
+//   margin-left: 3%;
+// `;
 
 class LeaderBoard extends React.Component {
   constructor(props) {
@@ -117,11 +117,11 @@ class LeaderBoard extends React.Component {
     this.state.refers.sort(function (a, b) {
       return a.refer - b.refer;
     });
-    const place = (props) => {
-      if ((props.key = 0)) {
-        return <First>1st</First>;
-      }
-    };
+    // const place = (props) => {
+    //   if ((props.key = 0)) {
+    //     return <First>1st</First>;
+    //   }
+    // };
     return (
       <Wrapper>
         <Boards>

@@ -138,7 +138,7 @@ class LeaderBoard extends React.Component {
             </Num>
           </Header>
           <LeaderBoards>
-            {this.state.refer.map((index, key) => (
+            {this.state.refers.map((index, key) => (
               <User
                 key={key}
                 place={key}
